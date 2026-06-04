@@ -88,6 +88,8 @@ figcaption
   background-color: #F3F9FF
 .bg12
   background-color: #512101
+.bg13
+  background-color: #FFFBDF
 .izq
   margin-left: -0.7rem !important
 .izq2
@@ -172,3 +174,96 @@ figcaption
     background-size: cover 
   @media screen and (max-width: 767px)
     background-size: cover 
+linea de tiempoD en custom
+.linea-tiempo-d.color-primario .linea-tiempo-d__item__number
+  background-color: #DFDFB7 !important
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item__content
+    background-color: #F9F9F1 !important
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #FFEA5E !important
+  color: #12263F 
+
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__content
+    background-color: #FFFBDF !important
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5
+    color: #12263F 
+  p
+    margin-bottom: 0
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #DFDFB7
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--avatarHorizontal2
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5
+    color: #12263F 
+  p
+    margin-bottom: 0
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #FFFBDF
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first, 
+  &::before
+    background-color: #FFFBDF !important
+.crd--last
+  &::before
+    background-color: #DFDFB7 !important
+.crd--first
+  &::before
+    border-top-left-radius: 30px
+.crd--last
+  &::before
+    border-bottom-left-radius: 30px
+.tarjeta.color-acento-botones--borde
+  background-color: #86F071
+  border: #86F071
+.tabs-a__tab 
+   background-color: #86F071 !important
+.tabs-a__tab   
+  display: block
+  width: 100%
+  text-align: left
+  padding: 15px 20px
+  border-radius: 5px
+  line-height: 1.2em
+  &__text
+    overflow: hidden
+    text-overflow: ellipsis 
+    white-space: normal 
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+  background-color: #86F071 !important
+  color: #12263F
+
