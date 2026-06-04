@@ -13,8 +13,8 @@
           img.w-100.h-100.izq.d-none.d-lg-block(src='@/assets/curso/Tema2/IMG01.png', alt='', style='object-fit: cover;')
         .col-lg-7.align-items-center.p-5
           .row
-            .col-lg-2.d-none.d-lg-block
-              img(src='@/assets/curso/Tema2/img02.png', alt='')
+            .col-lg-2
+              img.d-none.d-lg-block(src='@/assets/curso/Tema2/img02.png', alt='')
           br
           p El itinerario turístico permite organizar la información del destino y convertirla en una experiencia comprensible para el visitante. A través de este recurso, se define qué lugares se visitan, en qué orden, cuánto tiempo requiere cada actividad, qué recomendaciones deben tenerse en cuenta y qué servicios apoyan el desarrollo del recorrido. Por ello, el itinerario no debe verse solo como una lista de horarios, sino como una herramienta que facilita la orientación, la seguridad, la coordinación y la calidad del servicio turístico.
         
