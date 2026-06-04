@@ -7,7 +7,7 @@
           span 1
         h1 Información del destino turístico regional
 
-      .bloque-texto-g.bloque-texto-g--inverso.bg1.p-3.p-sm-4.p-md-5.mb-4
+      .bloque-texto-g.bloque-texto-g--inverso.bg1.p-3.p-sm-4.p-md-5.mb-4(data-aos="fade-left")
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/Tema1/img01.png')})`}"
         )
@@ -42,72 +42,73 @@
       p Antes de orientar a un visitante, es necesario comprender que el destino turístico funciona como un sistema. Esto significa que no está conformado únicamente por los atractivos naturales o culturales, sino también por los servicios, la comunidad local, la infraestructura, las condiciones de accesibilidad, la seguridad y la identidad del territorio. Reconocer estos elementos permite organizar mejor la información y brindar recomendaciones pertinentes, seguras e incluyentes de acuerdo con las necesidades del visitante.
       p A continuación, se relacionan los elementos del destino turístico como sistema:
         
+      .row.justify-content-center
+        .col-md-9.col-lg-12
+          SlyderF(columnas="col-lg-6 col-xl-4").mb-4(data-aos="fade-left")
+            .tarjeta.bg8.p-4
+              .row.justify-content-center.mb-3
+                .col-6.col-md-4.col-lg-6
+                  img(src='@/assets/curso/Tema1/1.svg' alt='')
+              h4.text-center Atractivos turísticos
+              p.text-center Motivan la visita y permiten reconocer el valor natural, cultural, histórico, recreativo o simbólico del territorio.
 
-      SlyderF(columnas="col-lg-6 col-xl-4").mb-4(data-aos="fade-left")
-        .tarjeta.bg8.p-4
-          .row.justify-content-center.mb-3
-            .col-7.col-md-4.col-lg-6
-              img(src='@/assets/curso/Tema1/1.svg' alt='')
-          h4.text-center Atractivos turísticos
-          p.text-center Motivan la visita y permiten reconocer el valor natural, cultural, histórico, recreativo o simbólico del territorio.
+            .tarjeta.bg8.p-4
+              .row.justify-content-center.mb-3
+                .col-6.col-md-4.col-lg-6
+                  img(src='@/assets/curso/Tema1/2.svg' alt='')
+              h4.text-center Servicios turísticos
+              p.text-center Facilitan la permanencia del visitante mediante alojamiento, alimentación, transporte, guianza, información y actividades complementarias.
 
-        .tarjeta.bg8.p-4
-          .row.justify-content-center.mb-3
-            .col-7.col-md-4.col-lg-6
-              img(src='@/assets/curso/Tema1/2.svg' alt='')
-          h4.text-center Servicios turísticos
-          p.text-center Facilitan la permanencia del visitante mediante alojamiento, alimentación, transporte, guianza, información y actividades complementarias.
+            .tarjeta.bg8.p-4
+              .row.justify-content-center.mb-3
+                .col-6.col-md-4.col-lg-6
+                  img(src='@/assets/curso/Tema1/3.svg' alt='')
+              h4.text-center Comunidad local
+              p.text-center Aporta identidad, saberes, tradiciones, hospitalidad y sentido cultural a la experiencia turística.
 
-        .tarjeta.bg8.p-4
-          .row.justify-content-center.mb-3
-            .col-7.col-md-4.col-lg-6
-              img(src='@/assets/curso/Tema1/3.svg' alt='')
-          h4.text-center Comunidad local
-          p.text-center Aporta identidad, saberes, tradiciones, hospitalidad y sentido cultural a la experiencia turística.
+            .tarjeta.bg8.p-4
+              .row.justify-content-center.mb-3
+                .col-6.col-md-4.col-lg-6
+                  img(src='@/assets/curso/Tema1/4.svg' alt='')
+              h4.text-center Infraestructura
+              p.text-center Permite el acceso y disfrute del destino mediante vías, señalización, espacios públicos, servicios básicos y conectividad.
 
-        .tarjeta.bg8.p-4
-          .row.justify-content-center.mb-3
-            .col-7.col-md-4.col-lg-6
-              img(src='@/assets/curso/Tema1/4.svg' alt='')
-          h4.text-center Infraestructura
-          p.text-center Permite el acceso y disfrute del destino mediante vías, señalización, espacios públicos, servicios básicos y conectividad.
+            .tarjeta.bg8.p-4
+              .row.justify-content-center.mb-3
+                .col-6.col-md-4.col-lg-6
+                  img(src='@/assets/curso/Tema1/5.svg' alt='')
+              h4.text-center Accesibilidad
+              p.text-center Favorece la participación de personas con discapacidad, personas mayores, familias y visitantes con diferentes necesidades de movilidad, comunicación u orientación.
 
-        .tarjeta.bg8.p-4
-          .row.justify-content-center.mb-3
-            .col-7.col-md-4.col-lg-6
-              img(src='@/assets/curso/Tema1/5.svg' alt='')
-          h4.text-center Accesibilidad
-          p.text-center Favorece la participación de personas con discapacidad, personas mayores, familias y visitantes con diferentes necesidades de movilidad, comunicación u orientación.
+            .tarjeta.bg8.p-4
+              .row.justify-content-center.mb-3
+                .col-6.col-md-4.col-lg-6
+                  img(src='@/assets/curso/Tema1/6.svg' alt='')
+              h4.text-center Seguridad
+              p.text-center Contribuye a prevenir riesgos y orientar al visitante sobre recomendaciones, rutas, condiciones del lugar y medidas de cuidado.
 
-        .tarjeta.bg8.p-4
-          .row.justify-content-center.mb-3
-            .col-7.col-md-4.col-lg-6
-              img(src='@/assets/curso/Tema1/6.svg' alt='')
-          h4.text-center Seguridad
-          p.text-center Contribuye a prevenir riesgos y orientar al visitante sobre recomendaciones, rutas, condiciones del lugar y medidas de cuidado.
+            .tarjeta.bg8.p-4
+              .row.justify-content-center.mb-3
+                .col-6.col-md-4.col-lg-6
+                  img(src='@/assets/curso/Tema1/7.svg' alt='')
+              h4.text-center Identidad del destino
+              p.text-center Reúne los elementos culturales, naturales, históricos y simbólicos que diferencian al territorio frente a otros destinos.
 
-        .tarjeta.bg8.p-4
-          .row.justify-content-center.mb-3
-            .col-7.col-md-4.col-lg-6
-              img(src='@/assets/curso/Tema1/7.svg' alt='')
-          h4.text-center Identidad del destino
-          p.text-center Reúne los elementos culturales, naturales, históricos y simbólicos que diferencian al territorio frente a otros destinos.
-
-        .tarjeta.bg8.p-4
-          .row.justify-content-center.mb-3
-            .col-7.col-md-4.col-lg-6
-              img(src='@/assets/curso/Tema1/8.svg' alt='')
-          h4.text-center Imagen y reputación
-          p.text-center Influye en la percepción del visitante y en la decisión de recomendar, regresar o valorar positivamente la experiencia.
+            .tarjeta.bg8.p-4
+              .row.justify-content-center.mb-3
+                .col-6.col-md-4.col-lg-6
+                  img(src='@/assets/curso/Tema1/8.svg' alt='')
+              h4.text-center Imagen y reputación
+              p.text-center Influye en la percepción del visitante y en la decisión de recomendar, regresar o valorar positivamente la experiencia.
 
 
-      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
-        .col-sm-12.col-lg-7
-          .d-flex.align-items-start
-            img.w-card-icon(src="@/assets/curso/Tema1/ico.svg")
-            h3.bg3.py-2.w-card-text.text-white Atractivos turísticos
+          .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+            .col-sm-12.col-lg-7
+              .d-flex.align-items-start
+                img.w-card-icon(src="@/assets/curso/Tema1/ico.svg")
+                h3.bg3.py-2.w-card-text.text-white Atractivos turísticos
 
-      .row.justify-content-center.align-items-center.mb-3
+      .row.justify-content-center.align-items-center.mb-3(data-aos="fade-left")
         .col-lg-12
           img(src='@/assets/curso/Tema1/img04.png', alt='')
       p Los atractivos turísticos son recursos naturales o culturales que tienen el potencial y la capacidad de atraer visitantes. Esta definición se encuentra en la Ley 2068 de 2020, que actualiza disposiciones de la Ley General de Turismo en Colombia (Congreso de Colombia, 2020). Un atractivo puede motivar el desplazamiento de personas hacia un destino por su belleza, historia, valor ambiental, importancia cultural, tradición, arquitectura, gastronomía, recreación, espiritualidad, memoria colectiva o singularidad.
@@ -132,18 +133,18 @@
             h3.bg3.py-2.w-card-text.text-white Clasificación de atractivos
 
 
-      .row.justify-content-center.align-items-center.mb-5
-        .col-lg-5
+      .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
+        .col-lg-5.mb-4
           img(src='@/assets/curso/Tema1/img06.png', alt='')
         .col-lg-7
           .row 
-            .col-lg-2
+            .col-lg-2.d-none.d-lg-block
               img(src='@/assets/curso/Tema1/img07.png', alt='')
             .col-lg-10
               p La clasificación de atractivos permite organizar la información del destino y orientar al visitante de acuerdo con el tipo de experiencia que busca. Algunos visitantes prefieren espacios naturales, otros se interesan por la historia, la gastronomía, la arquitectura, las festividades, las expresiones culturales o las actividades recreativas. Por ello, clasificar los atractivos facilita seleccionar información pertinente y responder de manera más precisa a las solicitudes del turista.
           p De acuerdo con la metodología para la elaboración del inventario turístico del Ministerio de Comercio, Industria y Turismo, los recursos y atractivos susceptibles de uso turístico se organizan principalmente en dos grandes grupos: patrimonio cultural y sitios naturales (Ministerio de Comercio, Industria y Turismo, 2020).
     
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
         .col-lg-9
           .row.justify-content-center.align-items-center.mb-3(data-aos="fade-left")
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -182,7 +183,7 @@
                     td #[b Sitios naturales]
                     td Áreas, paisajes o recursos naturales con valor ambiental, paisajístico, recreativo o educativo.
                     td Parques naturales, ríos, cascadas, montañas, senderos, miradores, reservas, cuevas, playas.
-        .col-lg-3
+        .col-lg-3.d-none.d-lg-block
           img(src='@/assets/curso/Tema1/img08.png', alt='')
 
       p Al orientar sobre atractivos turísticos, es importante evitar presentar a las comunidades como objetos de observación. La información debe comunicarse con respeto por la cultura local, la privacidad, las normas comunitarias y la autorización de las personas o colectivos involucrados. También se deben considerar criterios de accesibilidad para personas con discapacidad, condiciones de seguridad, capacidad del lugar y recomendaciones de conservación ambiental.
@@ -205,11 +206,11 @@
 
       p Para comprender su uso, es útil reconocer tres conceptos básicos:
       
-      .row.mb-5
+      .row.mb-4(data-aos="fade-left")
         .col-sm-6.col-lg-4.mb-4.mb-lg-0.d-flex
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
-              .col-lg-4.mb-4
+              .col-lg-4.mb-4.col-5
                 figure
                   img(src='@/assets/curso/Tema1/01.svg', alt='')
               .col-lg-10
@@ -219,7 +220,7 @@
         .col-sm-6.col-lg-4.mb-4.mb-lg-0.d-flex
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
-              .col-lg-4.mb-4
+              .col-lg-4.mb-4.col-5
                 figure
                   img(src='@/assets/curso/Tema1/02.svg', alt='')
               .col-lg-10
@@ -229,7 +230,7 @@
         .col-sm-6.col-lg-4.mb-4.mb-lg-0.d-flex
           .tarjeta--boton.color-primario.p-4.h-100
             .row.justify-content-center.mb-3
-              .col-lg-4.mb-4
+              .col-lg-4.mb-4.col-5
                 figure
                   img(src='@/assets/curso/Tema1/03.svg', alt='')
               .col-lg-10
@@ -245,7 +246,7 @@
           p La elaboración de un inventario turístico puede incluir diferentes momentos, como la revisión de información previa, la identificación de recursos y atractivos, la clasificación, el trabajo de campo, el registro en formatos, la valoración y la actualización de la información. Sin embargo, para la prestación del servicio turístico, lo más importante es saber interpretar esa información y utilizarla de manera responsable al orientar al visitante.
           p Para profundizar en el proceso técnico de identificación, clasificación, registro y valoración de los atractivos turísticos, puede consultarse el Anexo 1. Metodología para la elaboración del inventario de atractivos turísticos, del Ministerio de Comercio, Industria y Turismo. Este documento amplía los criterios, formularios y orientaciones utilizados para elaborar inventarios turísticos en los territorios; en este componente se retoman únicamente los aspectos necesarios para comprender el inventario como herramienta de orientación al visitante y apoyo a la gestión turística regional (Ministerio de Comercio, Industria y Turismo, 2020).
 
-      .cajon.color-secundario.p-4.mb-4
+      .cajon.color-secundario.p-4.mb-4(data-aos="fade-left")
         p En la metodología del MinCIT, la valoración de atractivos considera aspectos como la calidad y el significado. La calidad se relaciona con el estado de conservación, organización, representatividad o condiciones del atractivo, según su naturaleza. El significado se refiere al nivel de reconocimiento del atractivo en el ámbito local, regional, nacional o internacional. Esta información ayuda a priorizar atractivos, diseñar recorridos y brindar recomendaciones más pertinentes al visitante (Ministerio de Comercio, Industria y Turismo, 2020).
         p Por ejemplo, si una persona solicita información sobre una experiencia cultural en la región, el inventario puede ayudar a identificar festividades, museos, centros históricos, prácticas gastronómicas o expresiones artísticas disponibles. Si la solicitud está relacionada con naturaleza, puede orientar sobre senderos, miradores, reservas, cascadas o parques, junto con recomendaciones de acceso, horarios, clima, seguridad y cuidado del entorno.
 
@@ -258,18 +259,18 @@
       p El inventario turístico cobra sentido cuando la información registrada se transforma en orientación útil para el visitante. Por ello, no basta con identificar los recursos y atractivos de un territorio; también es necesario clasificarlos, reconocer sus condiciones de acceso, valorar su estado, revisar las recomendaciones de visita y comunicar la información de manera clara, segura e incluyente.
       p Para comprender esta relación, el proceso puede organizarse en cinco momentos:
       
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
         .col-lg-12
-          LineaTiempoE.color-primario
+          LineaTiempoE.color-secundario
             .row.justify-content-center(titulo="Paso 1" subtitulo="")
-              .col-lg-3
+              .col-lg-3.col-7.mb-3.col-md-6
                 figure
                   img(src='@/assets/curso/Tema1/pas1.png', alt='')     
               .col-lg-8.mb-4.mb-lg-0
                 h5 Identificar
                 p Reconocer los recursos y atractivos presentes en el territorio, teniendo en cuenta su valor natural, cultural, histórico, recreativo o simbólico.
             .row.justify-content-center(titulo="Paso 2" subtitulo="")
-              .col-lg-3
+              .col-lg-3.col-7.mb-3.col-md-6
                 figure
                   img(src='@/assets/curso/Tema1/pas2.png', alt='')
 
@@ -278,7 +279,7 @@
                 p Organizar los atractivos según su naturaleza, por ejemplo, patrimonio cultural material, patrimonio cultural inmaterial, festividades y eventos, grupos de especial interés o sitios naturales.
 
             .row.justify-content-center(titulo="Paso 3" subtitulo="")
-              .col-lg-3
+              .col-lg-3.col-7.mb-3.col-md-6
                 figure
                   img(src='@/assets/curso/Tema1/pas3.png', alt='')
 
@@ -287,7 +288,7 @@
                 p Reunir información sobre ubicación, acceso, horarios, servicios disponibles, recomendaciones, restricciones, condiciones de seguridad y accesibilidad.
 
             .row.justify-content-center(titulo="Paso 4" subtitulo="")
-              .col-lg-3
+              .col-lg-3.col-7.mb-3.col-md-6
                 figure
                   img(src='@/assets/curso/Tema1/pas4.png', alt='')
 
@@ -296,7 +297,7 @@
                 p Revisar aspectos como calidad, significado, estado de conservación, nivel de reconocimiento y condiciones de visita.
 
             .row.justify-content-center(titulo="Paso 5" subtitulo="")
-              .col-lg-3
+              .col-lg-3.col-7.mb-3.col-md-6
                 figure
                   img(src='@/assets/curso/Tema1/pas5.png', alt='')
 
@@ -305,7 +306,7 @@
                 p Suministrar al visitante información clara, actualizada y pertinente, de acuerdo con su necesidad, el entorno turístico y las condiciones del atractivo.
 
       p Esta secuencia permite pasar del simple registro de información a una atención más organizada. Así, el inventario turístico se convierte en una herramienta para recomendar experiencias, resolver inquietudes, prevenir riesgos y verificar que la información entregada corresponda con las condiciones reales del destino.
-      .cajon.color-primario.p-4.mb-4
+      .cajon.color-primario.p-4.mb-4(data-aos="fade-left")
         .h5 El destino turístico como sistema
         p Un destino no se compone solo de atractivos. También integra servicios, comunidad local, infraestructura, accesibilidad, seguridad, identidad, imagen y reputación. Estos elementos permiten organizar la información necesaria para orientar al visitante de manera clara, segura e incluyente.
 
