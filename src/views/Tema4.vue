@@ -411,6 +411,222 @@
             p Estos sistemas ayudan a trabajar de manera más ordenada, rápida y segura. Gracias a ellos es posible consultar reservas, hacer seguimiento a solicitudes, registrar quejas, controlar servicios ofrecidos, analizar datos de satisfacción, revisar información del destino y fortalecer la calidad de la atención.
 
 
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-10
+        .d-flex.align-items-start
+          img.w-card-icon(src="@/assets/curso/Tema1/ico.svg")
+          h3.bg3.py-2.w-card-text.text-white Tipos de sistemas de información en turismo
+
+
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
+        .col-lg-12
+          LineaTiempoE.color-secundario
+            .row.justify-content-center(titulo="Paso 1" subtitulo="")
+              .col-lg-3.col-7.mb-3.col-md-6
+                figure
+                  img(src='@/assets/curso/Tema4/pas13.png', alt='')
+              .col-lg-8.mb-4.mb-lg-0
+                h5 Sistemas de reservas
+                p Permiten registrar, consultar y gestionar reservas de alojamiento, transporte, paquetes turísticos, actividades, restaurantes o eventos.
+
+            .row.justify-content-center(titulo="Paso 2" subtitulo="")
+              .col-lg-3.col-7.mb-3.col-md-6
+                figure
+                  img(src='@/assets/curso/Tema4/pas14.png', alt='')
+              .col-lg-8.mb-4.mb-lg-0
+                h5 Sistemas de gestión hotelera
+                p Apoyan la administración de hoteles y alojamientos en procesos como recepción, habitaciones, facturación, inventario, pagos, reservas y atención al huésped.
+
+            .row.justify-content-center(titulo="Paso 3" subtitulo="")
+              .col-lg-3.col-7.mb-3.col-md-6
+                figure
+                  img(src='@/assets/curso/Tema4/pas15.png', alt='')
+              .col-lg-8.mb-4.mb-lg-0
+                h5 Sistemas de información geográfica
+                p Organizan información relacionada con ubicación de atractivos, rutas, senderos, zonas turísticas, hoteles, restaurantes y puntos de interés.
+
+            .row.justify-content-center(titulo="Paso 4" subtitulo="")
+              .col-lg-3.col-7.mb-3.col-md-6
+                figure
+                  img(src='@/assets/curso/Tema4/pas16.png', alt='')
+              .col-lg-8.mb-4.mb-lg-0
+                h5 Sistemas de atención al cliente
+                p Permiten registrar solicitudes, quejas, reclamos, sugerencias, encuestas de satisfacción y seguimiento a los visitantes.
+
+            .row.justify-content-center(titulo="Paso 5" subtitulo="")
+              .col-lg-3.col-7.mb-3.col-md-6
+                figure
+                  img(src='@/assets/curso/Tema4/pas17.png', alt='')
+              .col-lg-8.mb-4.mb-lg-0
+                h5 Sistemas de promoción y comercialización turística
+                p Apoyan la divulgación de productos, servicios y destinos a través de páginas web, redes sociales, plataformas de venta, correos electrónicos o campañas digitales.
+
+            .row.justify-content-center(titulo="Paso 6" subtitulo="")
+              .col-lg-3.col-7.mb-3.col-md-6
+                figure
+                  img(src='@/assets/curso/Tema4/pas18.png', alt='')
+              .col-lg-8.mb-4.mb-lg-0
+                h5 Sistemas estadísticos y de análisis turístico
+                p Permiten analizar datos sobre visitantes, ocupación hotelera, gasto turístico, temporadas, preferencias, comportamiento del mercado y resultados del servicio.
+
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-10
+        .d-flex.align-items-start
+          img.w-card-icon(src="@/assets/curso/Tema1/ico.svg")
+          h3.bg3.py-2.w-card-text.text-white Verificación del servicio turístico
+
+    .bloque-texto-g.bg9.p-3.p-sm-4.p-md-5.mb-4(data-aos="fade-left")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/Tema4/img12.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 La verificación del servicio turístico consiste en revisar si la atención prestada correspondió con la solicitud del cliente, las condiciones ofrecidas, el itinerario definido, los procedimientos establecidos y la normativa aplicable. Esta verificación permite identificar si el visitante recibió información clara, si se cumplieron los servicios pactados, si las actividades se desarrollaron de manera segura y si la experiencia respondió a sus expectativas.
+          br
+          br
+          | Para verificar el servicio se pueden utilizar métodos e instrumentos como encuestas de satisfacción, entrevistas breves, observación directa, análisis de quejas y sugerencias, revisión documental, listas de chequeo, registros de novedades y reportes de incidentes. Lo importante es que la información recolectada se analice y se convierta en decisiones de mejora.
+
+    .cajon.color-primario.p-4.mb-4
+      p Para comprender mejor cómo la información recolectada durante la prestación del servicio turístico puede convertirse en decisiones y acciones de mejora, se invita a explorar el pódcast “De los datos a la mejora del servicio turístico”. En este recurso se presenta una situación cotidiana relacionada con la atención al visitante y se explica cómo una encuesta, una lista de chequeo o un registro de novedades puede ayudar a verificar el servicio, identificar oportunidades de mejora y fortalecer la calidad de la experiencia turística.
+
+    .row.justify-content-center.mb-4
+        .col-lg-12
+          img.w-100(
+            src='@/assets/curso/Tema4/podcast.svg'
+            alt='Texto que describa la imagen'
+            data-aos="zoom-in-left"
+          )
+        .col-lg-12
+          .tarjeta.color-primario.p-4.rounded-0.h-100.bg12
+            .tarjeta.bg-white.p-4
+              TarjetaAudio.color-primario(
+                texto="Pódcast: De los datos a la mejora del servicio turístico"
+                :audio="require('@/assets/curso/Tema4/podcast.svg')"
+              )
+              .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+              p.mt-3
+                em 
+                |  Después de revisar el pódcast, se recomienda reconocer qué información fue recolectada, qué situación se analizó y qué acción de mejora podría aplicarse en un servicio turístico regional.
+
+
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-10
+        .d-flex.align-items-start
+          img.w-card-icon(src="@/assets/curso/Tema1/ico.svg")
+          h3.bg3.py-2.w-card-text.text-white Retroalimentación y acciones de mejora
+
+    p La retroalimentación es el proceso mediante el cual se revisan los resultados del servicio y se comunican hallazgos al equipo de trabajo o a las personas responsables. Su propósito es reconocer fortalezas, identificar oportunidades de mejora y definir acciones que permitan prestar un servicio más pertinente, seguro y satisfactorio.
+    p Las acciones de mejora deben surgir de la información recolectada. Por ejemplo, si varias personas indican que no recibieron información clara sobre el nivel de dificultad de una caminata, la acción de mejora puede ser ajustar el itinerario, fortalecer las recomendaciones previas y explicar mejor las condiciones del recorrido antes de iniciar la actividad.
+
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-10
+        .d-flex.align-items-start
+          img.w-card-icon(src="@/assets/curso/Tema1/ico.svg")
+          h3.bg3.py-2.w-card-text.text-white Ruta para convertir información en mejora del servicio
+
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
+      .col-lg-12
+        LineaTiempoE.color-secundario
+          .row.justify-content-center(titulo="Paso 1" subtitulo="")
+            .col-lg-3.col-7.mb-3.col-md-6
+              figure
+                img(src='@/assets/curso/Tema4/pas19.png', alt='')
+            .col-lg-8.mb-4.mb-lg-0
+              h5 Recolectar información
+              p Aplicar instrumentos como encuestas, registros, entrevistas o listas de chequeo.
+
+          .row.justify-content-center(titulo="Paso 2" subtitulo="")
+            .col-lg-3.col-7.mb-3.col-md-6
+              figure
+                img(src='@/assets/curso/Tema4/pas20.png', alt='')
+            .col-lg-8.mb-4.mb-lg-0
+              h5 Organizar los datos
+              p Agrupar la información por temas: atención, seguridad, puntualidad, claridad de la información, accesibilidad, servicios complementarios o satisfacción.
+
+          .row.justify-content-center(titulo="Paso 3" subtitulo="")
+            .col-lg-3.col-7.mb-3.col-md-6
+              figure
+                img(src='@/assets/curso/Tema4/pas21.png', alt='')
+            .col-lg-8.mb-4.mb-lg-0
+              h5 Analizar resultados
+              p Identificar tendencias, problemas frecuentes, aspectos positivos y situaciones que requieren seguimiento.
+
+          .row.justify-content-center(titulo="Paso 4" subtitulo="")
+            .col-lg-3.col-7.mb-3.col-md-6
+              figure
+                img(src='@/assets/curso/Tema4/pas22.png', alt='')
+            .col-lg-8.mb-4.mb-lg-0
+              h5 Presentar resultados
+              p Comunicar los hallazgos mediante informes breves, reuniones, reportes o gráficos sencillos.
+
+          .row.justify-content-center(titulo="Paso 5" subtitulo="")
+            .col-lg-3.col-7.mb-3.col-md-6
+              figure
+                img(src='@/assets/curso/Tema4/pas23.png', alt='')
+            .col-lg-8.mb-4.mb-lg-0
+              h5 Definir acciones de mejora
+              p Proponer ajustes concretos, responsables, tiempos y recursos necesarios.
+
+          .row.justify-content-center(titulo="Paso 6" subtitulo="")
+            .col-lg-3.col-7.mb-3.col-md-6
+              figure
+                img(src='@/assets/curso/Tema4/pas24.png', alt='')
+            .col-lg-8.mb-4.mb-lg-0
+              h5 Realizar seguimiento
+              p Verificar si las acciones implementadas mejoraron la prestación del servicio.
+
+    .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-lg-10
+        .d-flex.align-items-start
+          img.w-card-icon(src="@/assets/curso/Tema1/ico.svg")
+          h3.bg3.py-2.w-card-text.text-white Ejemplo aplicado
+
+    .row.justify-content-center.align-items-stretch.mb-4.bg6(data-aos='fade-right')
+        .col-lg-5.d-flex
+          img.w-100.h-100.izq.d-none.d-lg-block(src='@/assets/curso/Tema4/img13.png', alt='', style='object-fit: cover;')
+        .col-lg-7.align-items-center.p-5
+          br
+          p Durante un recorrido regional, varios visitantes manifiestan en la encuesta de satisfacción que el punto de encuentro no fue claro y que algunas recomendaciones fueron enviadas de manera tardía. Al revisar los resultados, la persona o entidad prestadora del servicio identifica una oportunidad de mejora en la comunicación previa al recorrido. Como acción de mejora, se actualiza el itinerario, se envía la información con mayor anticipación, se incluye un mapa sencillo y se confirma la recepción de las recomendaciones antes de iniciar la actividad. En una siguiente experiencia, se verifica si disminuyen las dudas y los retrasos relacionados con el punto de encuentro.
+          p Este ejemplo muestra cómo la información recolectada durante la prestación del servicio puede convertirse en una acción concreta para mejorar la orientación al visitante y fortalecer la calidad de la atención.
+    
+    .cajon.color-primario.p-4.mb-4
+      p En síntesis, la gestión de la información permite recolectar, organizar, proteger, analizar y utilizar datos para verificar la calidad del servicio turístico. Cuando la información se maneja de manera responsable, es posible presentar resultados, realizar retroalimentación y aplicar acciones de mejora orientadas a responder mejor a las necesidades del visitante y fortalecer la confianza en el servicio prestado.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </template>
 
