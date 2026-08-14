@@ -486,7 +486,7 @@
           | Para verificar el servicio se pueden utilizar métodos e instrumentos como encuestas de satisfacción, entrevistas breves, observación directa, análisis de quejas y sugerencias, revisión documental, listas de chequeo, registros de novedades y reportes de incidentes. Lo importante es que la información recolectada se analice y se convierta en decisiones de mejora.
 
     .cajon.color-primario.p-4.mb-4
-      p Para comprender mejor cómo la información recolectada durante la prestación del servicio turístico puede convertirse en decisiones y acciones de mejora, se invita a explorar el pódcast “De los datos a la mejora del servicio turístico”. En este recurso se presenta una situación cotidiana relacionada con la atención al visitante y se explica cómo una encuesta, una lista de chequeo o un registro de novedades puede ayudar a verificar el servicio, identificar oportunidades de mejora y fortalecer la calidad de la experiencia turística.
+      p Para comprender mejor cómo la información recolectada durante la prestación del servicio turístico puede convertirse en decisiones y acciones de mejora, se invita a explorar el #[em pódcast] “De los datos a la mejora del servicio turístico”. En este recurso se presenta una situación cotidiana relacionada con la atención al visitante y se explica cómo una encuesta, una lista de chequeo o un registro de novedades puede ayudar a verificar el servicio, identificar oportunidades de mejora y fortalecer la calidad de la experiencia turística.
 
     .row.justify-content-center.mb-4
         .col-lg-12

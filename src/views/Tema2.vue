@@ -223,7 +223,7 @@
               tr
                 td #[b De aventura]
                 td Puede implicar mayor exigencia física y requiere condiciones de seguridad previamente definidas.
-                td Senderismo, ciclomontañismo, rafting, escalada o actividades en altura.
+                td Senderismo, ciclomontañismo, #[em rafting], escalada o actividades en altura.
 
               tr
                 td #[b Educativa o interpretativa]
