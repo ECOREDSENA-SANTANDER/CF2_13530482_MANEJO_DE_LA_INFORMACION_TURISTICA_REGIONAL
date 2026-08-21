@@ -492,7 +492,7 @@
         .col-lg-12
           img.w-100(
             src='@/assets/curso/Tema4/podcast.svg'
-            alt='Texto que describa la imagen'
+            alt=''
             data-aos="zoom-in-left"
           )
         .col-lg-12
@@ -500,7 +500,7 @@
             .tarjeta.bg-white.p-4
               TarjetaAudio.color-primario(
                 texto="Pódcast: De los datos a la mejora del servicio turístico"
-                :audio="require('@/assets/curso/Tema4/podcast.svg')"
+                :audio="require('@/assets/curso/Tema4/podcast.mp3')"
               )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
               p.mt-3
