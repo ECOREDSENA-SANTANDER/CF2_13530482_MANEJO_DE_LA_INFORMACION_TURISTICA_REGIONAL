@@ -142,7 +142,7 @@
           .row.align-items-center
             .col-auto
               figure
-                img(src="@/assets/curso/Tema4/1.png", alt="alt").img100
+                img(src="@/assets/curso/Tema4/1.png", alt="").img100
             .col
               h5 Encuestas
               p Permiten conocer la percepción del visitante sobre la experiencia, el cumplimiento del itinerario, la atención recibida, la claridad de la información y el nivel de satisfacción mediante preguntas estructuradas.
@@ -151,7 +151,7 @@
           .row.align-items-center
             .col-auto
               figure
-                img(src="@/assets/curso/Tema4/2.png", alt="alt").img100
+                img(src="@/assets/curso/Tema4/2.png", alt="").img100
             .col
               h5 Entrevistas
               p Facilitan obtener información más detallada a partir de una conversación guiada, orientada a conocer expectativas, necesidades específicas, intereses o experiencias del visitante.
@@ -160,7 +160,7 @@
           .row.align-items-center
             .col-auto
               figure
-                img(src="@/assets/curso/Tema4/3.png", alt="alt").img100
+                img(src="@/assets/curso/Tema4/3.png", alt="").img100
             .col
               h5 Observación
               p Ayuda a registrar comportamientos, condiciones del entorno, flujo de visitantes, cumplimiento de normas, tiempos de espera o situaciones que ocurren durante la prestación del servicio.
@@ -169,7 +169,7 @@
           .row.align-items-center
             .col-auto
               figure
-                img(src="@/assets/curso/Tema4/6.png", alt="alt").img100
+                img(src="@/assets/curso/Tema4/6.png", alt="").img100
             .col
               h5 Registro de novedades
               p Permite documentar incidentes, retrasos, quejas, cambios de ruta, dificultades operativas o situaciones especiales durante la actividad turística, con fines de seguimiento y mejora.
@@ -178,7 +178,7 @@
           .row.align-items-center
             .col-auto
               figure
-                img(src="@/assets/curso/Tema4/4.png", alt="alt").img100
+                img(src="@/assets/curso/Tema4/4.png", alt="").img100
             .col
               h5 Revisión documental
               p Consiste en analizar documentos como itinerarios, formularios, registros o informes para verificar información, cumplimiento del servicio y coherencia con lo ofrecido.
@@ -187,7 +187,7 @@
           .row.align-items-center
             .col-auto
               figure
-                img(src="@/assets/curso/Tema4/5.png", alt="alt").img100
+                img(src="@/assets/curso/Tema4/5.png", alt="").img100
             .col
               h5 Retroalimentación del equipo de trabajo
               p Consiste en recopilar información a partir de la experiencia del equipo que presta el servicio, con el fin de identificar aciertos, dificultades y mejoras.
